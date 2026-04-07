@@ -23,31 +23,31 @@ public:
 
 
 class iron_tiger:public creature{
-    string name;
+    std::string name;
 public:
     iron_tiger():creature(),name("铁拳虎"){}
 };
 
 class tree_monkey:public creature{
-    string name;
+    std::string name;
 public:
     tree_monkey():creature(),name("木灵猴"){}
 };
 
 class ice_dear:public creature{
-    string name;
+    std::string name;
 public:
     ice_dear():creature(),name("冰晶鹿"){}
 };
 
 class fire_bird:public creature{
-    string name;
+    std::string name;
 public:
     fire_bird():creature(),name("火烈鸟"){}
 };
 
 class rock_bear:public creature{
-    string name;
+    std::string name;
 public:
     rock_bear():creature(),name("岩甲熊"){}
 };
